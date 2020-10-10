@@ -1,0 +1,15 @@
+public class Main{
+
+    public static void main(String[] args){
+
+        float myValue = 9.5f;
+
+        float myMinFloatvalue = Float.MIN_VALUE;
+        float myMaxFloatvalue = Float.MAX_VALUE;
+
+        System.out.println("Float Minimum Value = "+myMinFloatvalue);
+
+        System.out.println("Float Maximum Value = "+myMaxFloatvalue);
+
+    }
+}
