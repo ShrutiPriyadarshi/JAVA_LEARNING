@@ -1,0 +1,16 @@
+public class main {
+  
+  public static void main(String[] args) {
+  
+  byte byteValue = 20;
+  short shortValue = 50;
+  int intValue = 30;
+  
+  long longTotal = 50000L + 10L * (byteValue + shortValue + intValue);
+  System.out.println(longTotal);
+  
+  short shortTotal = (short) (1000 + 10 * (byteValue + shortValue + intValue));
+  System.out.println(shortTotal);
+  
+  }
+ }
