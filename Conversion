@@ -1,0 +1,12 @@
+ public class Main {
+   
+   public static void main(String[] args) {
+   
+   double numberofPounds = 50d;
+   double convertedKilograms = numberofPounds * 0.45359237d;
+   
+   System.out.println("ConvertedKilograms = " + convertedKilograms);
+   
+   }
+   
+  }
